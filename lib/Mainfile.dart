@@ -20,20 +20,66 @@ class Mainclass extends StatelessWidget{
       body: SafeArea(
       child: PageView(
         children: <Widget>[
-          Container(
-            child: ListView(
-              children: <Widget>[
-                Column(
-                  children: <Widget>[
-                    Text("Monday"),
-                    Text(
-                      "Period one"
-                    )
-                  ],
-                )
-              ],
-            ),
-
+          ListView(
+            padding: const EdgeInsets.all(8),
+            children: <Widget>[
+              Container(
+                height: 70,
+                color: Colors.amber[600],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                style: TextStyle(
+                  fontSize: 20
+                ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[500],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[100],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[100],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[100],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[100],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+              Container(
+                height: 70,
+                color: Colors.amber[100],
+                child: const Center(child: Text('7:15-7:55 -> ADT',
+                  style: TextStyle(
+                      fontSize: 20
+                  ),)),
+              ),
+            ],
           ),
           Container(
             padding: EdgeInsets.all(5.0),
